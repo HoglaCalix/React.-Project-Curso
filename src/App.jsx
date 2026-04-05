@@ -18,15 +18,39 @@ function Producto(props){
   )
 }
 
+//Uso de UseState
+function Contador(){
+  const [contador, setContador] = useState(0);
+
+  return(
+    <div>
+      <p>Contador :{contador}</p>
+      <button onClick={() => setContador(contador +1)}> Aumentar</button>
+    </div>
+  )
+}
+
+//Uso de useState y Eventos
+
+function NombreUsuario(){
+  const [nombre,setNombre] = useState("");
+  return(
+  <div><input type="text" 
+  placeholder='Ingrese su Nombre' 
+  onChange={(e) =>setNombre(e.target.value)}/>
+  
+  <h2>Hola {nombre} </h2>
+  </div>
+  )
+}
+
+
 
 function App() {
   return(
     <div>
-      <Saludo/>
+      <NombreUsuario></NombreUsuario>
     </div>
-    
- //Segundo ejemplo de Props
- //<Producto nombre="Laptop" precio="1200"/>
   )
 
   
