@@ -8,11 +8,6 @@ function Despedida(){
   
 }
 
-
-function Despedida(){
-  return <h1>Adios Mundo.</h1>
-  
-}
 function Saludo(){
   return <h1>Hola Mundo.</h1>
   
