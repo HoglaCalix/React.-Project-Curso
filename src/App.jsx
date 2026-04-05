@@ -49,7 +49,7 @@ function NombreUsuario(){
 function App() {
   return(
     <div>
-      <NombreUsuario></NombreUsuario>
+      <Contador></Contador>
     </div>
   )
 
