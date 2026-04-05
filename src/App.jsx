@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function Despedida(){
-  return <h1>Adios Mundo.</h1>
+  return <h1>Adios Mundo!</h1>
   
 }
 function Saludo(){
