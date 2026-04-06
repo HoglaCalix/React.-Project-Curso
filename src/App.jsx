@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import ListaEstudiantes from './Mapeo_Arrays.jsx'
+import ListaProductos from './Ejemplo_Prop_Key.jsx'
+
 import './App.css'
-function Despedida(){
-  return <h1>Adios Mundo.</h1>
-  
-}
+
 
 function Saludo(){
   return <h1>Hola Mundo.</h1>
@@ -50,10 +50,12 @@ function NombreUsuario(){
 
 
 
+
+
 function App() {
   return(
     <div>
-      <Contador></Contador>
+      <ListaProductos></ListaProductos>
     </div>
   )
 
