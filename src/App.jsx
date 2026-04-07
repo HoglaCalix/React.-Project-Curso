@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import ListaEstudiantes from './Mapeo_Arrays.jsx'
 import ListaProductos from './Ejemplo_Prop_Key.jsx'
+import Formulario from './Ejemplo_Use_State.jsx'
 
 import './App.css'
 
@@ -55,7 +56,7 @@ function NombreUsuario(){
 function App() {
   return(
     <div>
-      <ListaProductos></ListaProductos>
+      <Formulario></Formulario>
     </div>
   )
 
