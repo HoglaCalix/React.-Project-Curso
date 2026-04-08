@@ -1,8 +1,16 @@
 import { useState } from "react";
+import { useEffect } from "react";
 
 function Formulario(){
+    
+
     const [nombre, setNombre] = useState(" ");
     const [correo, setCorreo] = useState(" ");
+
+    useEffect(()=> {
+        console.log("El nombre se cambio");
+    } 
+    );
     
     const manejarEnvio = (e) => {
         e.preventDefault();

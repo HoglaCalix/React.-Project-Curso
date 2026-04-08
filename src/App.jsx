@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import ListaEstudiantes from './Mapeo_Arrays.jsx'
 import ListaProductos from './Ejemplo_Prop_Key.jsx'
 import Formulario from './Ejemplo_Use_State.jsx'
+import Usuario from './components/Ejemplo_Consumo_APIS.jsx'
 
 import './App.css'
 
@@ -56,7 +57,7 @@ function NombreUsuario(){
 function App() {
   return(
     <div>
-      <Formulario></Formulario>
+      <Usuario></Usuario>
     </div>
   )
 
